@@ -104,3 +104,13 @@ h3 {
 .newsletter-p {
     color: white;
 }
+
+.reviews-section {
+    display: inline-block;
+    max-width: 450px;
+}
+
+.reviews-box {
+    display: inline-block;
+    background-color:white;
+}
