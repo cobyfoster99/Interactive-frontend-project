@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* Background Colors */
+
+.grey-background {
+    background-color: #f1f1f1;
+}
+
+.turqoise-bg {
+    background-color: #2abd9a;
+}
+
+/* Text */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+    font-family: "poppins", arial;
+    color: #595959;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contain {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+}
+
+.h1-section {
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+}
+
+
+
+.deals-box-section {
+    display: inline-block;
+    max-width: 1200px;
+
+}
+
+.deals-box {
+    background-color: white;
+    width: 320px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.deals-image {
+    padding-bottom: 20px;
+}
+
+.deals-box-h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.deals-box-p {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.deals-box-price {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.deals-box-bottom-p {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.price-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.deals-section {
+    padding-bottom: 100px;
+}
+.image-background-newsletter {
+    background-image: url("../media-library/newsletter-background.jpg");
+    max-height: 400px;
+    padding-bottom: 100px;
+}
+
+.newsletter-h1,
+.newsletter-p {
+    color: white;
+}
