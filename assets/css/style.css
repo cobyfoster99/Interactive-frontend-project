@@ -30,25 +30,27 @@ h3 {
     font-weight: 600;
 }
 
-.contain {
-    max-width: 1920px;
-    margin: auto;
-    text-align: center;
-}
-
 .h1-section {
-    display: inline-block;
     padding-top: 100px;
-    padding-bottom: 100px;
-    max-width: 1200px;
 }
 
+/* Header */
 
+/* nav */
+
+/* Deals Section */
 
 .deals-box-section {
     display: inline-block;
     max-width: 1200px;
+}
 
+
+.h1-deals-section {
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
 }
 
 .deals-box {
@@ -86,6 +88,7 @@ h3 {
     margin-bottom: 0px;
 }
 
+
 .price-box {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -94,6 +97,9 @@ h3 {
 .deals-section {
     padding-bottom: 100px;
 }
+
+/* Newsletter Subscription Section */
+
 .image-background-newsletter {
     background-image: url("../media-library/newsletter-background.jpg");
     max-height: 400px;
@@ -105,12 +111,84 @@ h3 {
     color: white;
 }
 
+#mc_embed_signup {
+    clear: left;
+    font: 14px "poppins",sans-serif;
+    width: 100%;
+    border-radius: 25px;
+}
+#mce-EMAIL {
+    border-radius: 25px;
+}
+
+
+/* Testimoinals Section */
+
 .reviews-section {
-    display: inline-block;
-    max-width: 450px;
+    max-width: 1920px;
+    padding-bottom: 100px;
 }
 
 .reviews-box {
+    max-width: 400px;
     display: inline-block;
-    background-color:white;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    
+}
+
+/* Map Section */
+
+/* Contact section */
+
+.container-contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 100px;
+}
+
+.full-name {
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 49%;
+    height: 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    border: none;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+}
+
+.dream-experience {
+    margin-top: 20px;
+    width: 98%;
+    padding-left: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    border: none;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    padding-top:20px;
+}
+
+.submit-button {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 0;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+}
+
+/* Footer */
+
+.contain {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
 }
