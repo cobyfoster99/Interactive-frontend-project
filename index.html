@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script type="text/javascript" src="assets/js/foundation.js"></script>
+
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -24,9 +24,17 @@
 
     <!-------- Header Begins -------->
 
-
+    <!-------- Header Begins -------->
     <section>
-        <!-------- Deals Box Section -------->
+        <div class="banner-image-container h1-section">
+            <h1 class="banner-h1">TOP DESTINATIONS ON THE GLOBE </h1>
+            <p class="banner-p">Click on any of deals to read more. Each deal has its own popup modal to include any relevant information for your trip!</p>
+        </div>
+    </section>
+
+
+    <!-------- Deals Box Section -------->
+    <section>
         <div class="contain grey-background">
             <div class="h1-deals-section no-gutters">
                 <h1>OUR LATEST DEALS!</h1>
@@ -36,7 +44,7 @@
 
         <div class="contain grey-background deals-section">
             <div class="deals-box-section no-gutters">
-                <div class="deals-box">
+                <div class="deals-box" id="myBtn">
                     <img src="assets/media-library/mexico.jpg" class="deals-image" />
                     <h5 class="deals-box-h1">Mexico Madness</h5>
                     <p class="deals-box-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, ligula in egestas bibendum, dolorlacus accumsan mi, et efficitur</p>
@@ -49,7 +57,7 @@
             </div>
 
             <div class="deals-box-section no-gutters">
-                <div class="deals-box">
+                <div class="deals-box" id="moscowBtn">
                     <img src="assets/media-library/moscow.jpg" class="deals-image" />
                     <h5 class="deals-box-h1">Moscow Mix-Up</h5>
                     <p class="deals-box-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, ligula in egestas bibendum, dolorlacus accumsan mi, et efficitur</p>
@@ -76,6 +84,10 @@
 
         </div>
     </section>
+    
+    
+    
+    
     <!-------- Subscribe to our Newsletter -------->
     <section>
         <div class="contain">
@@ -98,6 +110,8 @@
             </div>
         </div>
     </section>
+
+
 
 
     <!-------- Testimonials Section -------->
@@ -134,27 +148,29 @@
     <div id="map"></div>
 
 
+
+
     <!-------- Contact Form Section -------->
-    <section class="grey-background">
-        <div class="contain grey-background">
+    <section class="white-background">
+        <div class="contain">
             <div class="h1-section no-gutters">
                 <h1>BESPOKE HOLIDAY EXPERIENCES</h1>
                 <P>Fill out the form below to choose your own experience!</P>
             </div>
         </div>
 
-        <div class="contain  grey-background">
+        <div class="contain">
             <div class="container-contact">
                 <form action="https://formspree.io/meqolwjw" method="POST">
-                    <input type="ftext" name="first-name" placeholder="First Name" class="full-name" />
+                    <input type="ftext" name="first-name" placeholder="First Name" class="full-name" required />
 
-                    <input type="ftext" name="location" placeholder="Location" class="full-name" />
+                    <input type="ftext" name="location" placeholder="Location" class="full-name" required />
 
-                    <input type="ftext" name="subject" placeholder="Subject" class="full-name" />
+                    <input type="ftext" name="subject" placeholder="Subject" class="full-name" required />
 
-                    <input type="ftext" name="phone-number" placeholder="Phone Number" class="full-name" />
+                    <input type="number" name="phone-number" placeholder="Phone Number" class="full-name" required />
 
-                    <textarea rows="8" name="discuss" placeholder="What's your dream experience?" class="dream-experience"></textarea>
+                    <textarea rows="8" name="discuss" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
 
                     <input type="submit" value="Submit" class="submit-button" />
                 </form>
@@ -162,9 +178,68 @@
         </div>
     </section>
 
+
+
     <!-------- Footer Begins -------->
     <footer></footer>
 
+
+
+
+
+    <!-- Mexico Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-contents">
+            <span class="close-button">&times;</span>
+            <div class="modal-headers text-center">
+                <h1 class="modal-h1 text-center">MEXICO MADNESS</h1>
+            </div>
+            <div class="modal-p-container">
+                <p class="modal-p">Our love for Mexican food has grown exponentially in recent years, with many high street restaurants serving up Mexican dishes. However, nothing beats eating with the locals. Tuck into authentic dishes like guacamole, tacos and chilaquiles
+                    (a typical breakfast dish containing fried tortillas topped with salsa and mole).
+                </p>
+                <p class="modal-p">From the ancient city of Palenque to the world-famous Chicen Itza, Mexico is steeped in a rich history of ancient civilisations. You can also head to Tulum, one of the last Mayan cities built, which sits on the idyllic coastline of the
+                    Yucatán Peninsula, also home to some stunning resorts that’ll leave you within walking distance of this Mayan marvel.
+                </p>
+            </div>
+            <div class="modal-lower-footer">
+                <h5 class="modal-footer-bold">Enquire Now -</h5>
+                <p>Tel: 0132 367 617</p>
+                <p>sales@simpledesignworks.co.uk</p>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Moscow Modal -->
+    <div id="moscowModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-contents">
+            <span class="close-button">&times;</span>
+            <div class="modal-headers text-center">
+                <h1 class="modal-h1 text-center">MEXICO MADNESS</h1>
+            </div>
+            <div class="modal-p-container">
+                <p class="modal-p">Our love for Mexican food has grown exponentially in recent years, with many high street restaurants serving up Mexican dishes. However, nothing beats eating with the locals. Tuck into authentic dishes like guacamole, tacos and chilaquiles
+                    (a typical breakfast dish containing fried tortillas topped with salsa and mole).
+                </p>
+                <p class="modal-p">From the ancient city of Palenque to the world-famous Chicen Itza, Mexico is steeped in a rich history of ancient civilisations. You can also head to Tulum, one of the last Mayan cities built, which sits on the idyllic coastline of the
+                    Yucatán Peninsula, also home to some stunning resorts that’ll leave you within walking distance of this Mayan marvel.
+                </p>
+            </div>
+            <div class="modal-lower-footer">
+                <h5 class="modal-footer-bold">Enquire Now -</h5>
+                <p>Tel: 0132 367 617</p>
+                <p>sales@simpledesignworks.co.uk</p>
+            </div>
+        </div>
+
+    </div>
+
 </body>
+<script type="text/javascript" src="assets/js/foundation.js"></script>
 
 </html>
