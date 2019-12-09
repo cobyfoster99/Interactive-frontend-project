@@ -113,6 +113,7 @@ header {
     background-image: url(../media-library/banner-image.jpg);
     min-height: 600px;
 }
+
 .banner-h1 {
     padding-top: 200px;
 }
@@ -186,7 +187,6 @@ header {
 
 
 
-
 /*                                            Newsletter Subscription Section                                            */
 
 .image-background-newsletter {
@@ -210,8 +210,6 @@ header {
 #mce-EMAIL {
     border-radius: 25px;
 }
-
-
 
 
 
@@ -405,7 +403,9 @@ header {
 
 
 
+/*                                  Media Queries                                          */
 
+/*                          Media Queries - Nav                          */
 
 @media only screen and (max-width: 1920px) and (min-width: 1200px) {
     .nav-center {
@@ -429,5 +429,26 @@ header {
     .float-right {
         padding-left: 150px;
         width: 100%;
+    }
+}
+
+
+/*                          Media Queries - Latest Deals                          */
+
+
+@media only screen and (max-width: 1300px) and (min-width: 700px) {
+    .deals-box,
+    .deals-image,
+    .reviews-box{
+        width: 450px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+    .deals-box-section {
+        
     }
 }
