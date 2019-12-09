@@ -23,9 +23,39 @@
 <body>
 
     <!-------- Header Begins -------->
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <img class="logo" src="./assets/media-library/logo.png"></img>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="float-right">
+                <div class="collapse navbar-collapse nav-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-active nav-link" href="#latest-deals">Latest Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/about.html">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact.html">Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <!-------- Header Begins -------->
-    <section>
+
+    <!-------- Banner Begins -------->
+    <section id="latest-deals">
         <div class="banner-image-container h1-section">
             <h1 class="banner-h1">TOP DESTINATIONS ON THE GLOBE </h1>
             <p class="banner-p">Click on any of deals to read more. Each deal has its own popup modal to include any relevant information for your trip!</p>
@@ -44,7 +74,7 @@
 
         <div class="contain grey-background deals-section">
             <div class="deals-box-section no-gutters">
-                <div class="deals-box" id="myBtn">
+                <div class="deals-box" id="mexicoBtn">
                     <img src="assets/media-library/mexico.jpg" class="deals-image" />
                     <h5 class="deals-box-h1">Mexico Madness</h5>
                     <p class="deals-box-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, ligula in egestas bibendum, dolorlacus accumsan mi, et efficitur</p>
@@ -70,7 +100,7 @@
             </div>
 
             <div class="deals-box-section no-gutters">
-                <div class="deals-box">
+                <div class="deals-box" id="srilankaBtn">
                     <img src="assets/media-library/sri-lanka.jpg" class="deals-image" />
                     <h5 class="deals-box-h1">Super Sri Lanka</h5>
                     <p class="deals-box-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, ligula in egestas bibendum, dolorlacus accumsan mi, et efficitur</p>
@@ -84,10 +114,10 @@
 
         </div>
     </section>
-    
-    
-    
-    
+
+
+
+
     <!-------- Subscribe to our Newsletter -------->
     <section>
         <div class="contain">
@@ -118,13 +148,13 @@
 
     <section class="grey-background">
         <div class="contain">
-            <div class="h1-section no-gutters">
+            <div class="testimonials-section no-gutters">
                 <h1>TRUSTED BY MANY!</h1>
                 <P>Click on any of deals to read more. Each deal has its own popup modal to include any relevant information for your trip!</P>
             </div>
         </div>
-        <div class="contain ">
-            <div class="reviews-section">
+        <div class="contain reviews-section">
+            <div class="no-gutters">
                 <div class="reviews-box">
                     <p>"Use the map below to search for a destination, hotels, restaurant or just things to do!"</p>
                     <h4>John Doe</h4>
@@ -145,6 +175,7 @@
             </div>
         </div>
     </section>
+
     <div id="map"></div>
 
 
@@ -158,6 +189,7 @@
                 <P>Fill out the form below to choose your own experience!</P>
             </div>
         </div>
+
 
         <div class="contain">
             <div class="container-contact">
@@ -188,12 +220,12 @@
 
 
     <!-- Mexico Modal -->
-    <div id="myModal" class="modal">
+    <div id="mexicoModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-contents">
             <span class="close-button">&times;</span>
-            <div class="modal-headers text-center">
+            <div class="mexico-modal-header text-center">
                 <h1 class="modal-h1 text-center">MEXICO MADNESS</h1>
             </div>
             <div class="modal-p-container">
@@ -213,14 +245,40 @@
 
     </div>
 
-<!-- Moscow Modal -->
+    <!-- Moscow Modal -->
     <div id="moscowModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-contents">
-            <span class="close-button">&times;</span>
-            <div class="modal-headers text-center">
-                <h1 class="modal-h1 text-center">MEXICO MADNESS</h1>
+            <span class="close-button-moscow">&times;</span>
+            <div class="moscow-modal-header text-center">
+                <h1 class="modal-h1 text-center">MOSCOW MADNESS</h1>
+            </div>
+            <div class="modal-p-container">
+                <p class="modal-p">Our love for Mexican food has grown exponentially in recent years, with many high street restaurants serving up Mexican dishes. However, nothing beats eating with the locals. Tuck into authentic dishes like guacamole, tacos and chilaquiles
+                    (a typical breakfast dish containing fried tortillas topped with salsa and mole).
+                </p>
+                <p class="modal-p">From the ancient city of Palenque to the world-famous Chicen Itza, Mexico is steeped in a rich history of ancient civilisations. You can also head to Tulum, one of the last Mayan cities built, which sits on the idyllic coastline of the
+                    Yucatán Peninsula, also home to some stunning resorts that’ll leave you within walking distance of this Mayan marvel.
+                </p>
+            </div>
+            <div class="modal-lower-footer">
+                <h5 class="modal-footer-bold">Enquire Now -</h5>
+                <p>Tel: 0132 367 617</p>
+                <p>sales@simpledesignworks.co.uk</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Sri Lanka Modal -->
+    <div id="srilankaModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-contents">
+            <span class="close-button-sri-lanka">&times;</span>
+            <div class="srilanka-modal-header text-center">
+                <h1 class="modal-h1 text-center">SUPER SRI LANKA</h1>
             </div>
             <div class="modal-p-container">
                 <p class="modal-p">Our love for Mexican food has grown exponentially in recent years, with many high street restaurants serving up Mexican dishes. However, nothing beats eating with the locals. Tuck into authentic dishes like guacamole, tacos and chilaquiles
