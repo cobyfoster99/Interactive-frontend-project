@@ -73,10 +73,10 @@ function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: countries['us'].zoom,
         center: countries['us'].center,
-        mapTypeControl: false,
-        panControl: false,
-        zoomControl: false,
-        streetViewControl: false
+        mapTypeControl: true,
+        panControl: true,
+        zoomControl: true,
+        streetViewControl: true
     });
 
     infoWindow = new google.maps.InfoWindow({
