@@ -1,3 +1,4 @@
+  
 // This is used to get the modal
 var mexicoModal = document.getElementById("mexicoModal");
 var moscowModal = document.getElementById("moscowModal");

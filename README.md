@@ -22,7 +22,7 @@ The Modal Popup is an easy way to display information without it making the webs
 The Mailchip API allows you to maintain a database of customers who want to be contacted with future marketing information. You can also use this as I  have done, a way to giveaway free prizes to people who sign up. This API is fully GDPR complient. 
 
 ##### Feature 2 - Google Maps API
-The Google Maps (GM) in this instance is used to locate nearby landmarks, resturants, hotels and more. This way the viewer can look into the destination and learn more about whats around. They can filtervbetween the different options.
+The Google Maps (GM) in this instance is used to locate hotels. This way the viewer can look into the destination and learn more about whats around. They can filter between the different options.
 
 ##### Feature 3 - Form API
 The form API is an easy way of recieving the filled out contact forms to an email address. for e.g if you fill out the contact form, it will send me an email formatted to my liking with your form submission. 
