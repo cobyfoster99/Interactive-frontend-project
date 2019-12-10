@@ -9,16 +9,23 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
+
+
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script id="mcjs">
         ! function(c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/73afc2b6da03ffead9c7e246b/2bdab1bb5ea46a9b8e2c8eb6c.js");
     </script>
+
+
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
 
     <title>Simple Design Works | Travel</title>
 
 </head>
+<script var map; function createMap() { var options={ center: { lat: 43.654, lng: -79.383 }, zoom: 10 }; map=n ew google.maps.Map(document.getElementById( 'map'), options); }></script>
 
 <body>
 
@@ -53,7 +60,6 @@
         </nav>
     </header>
 
-
     <!--------------------- Banner Section --------------------->
     <section id="latest-deals">
         <div class="banner-image-container h1-section">
@@ -61,7 +67,6 @@
             <p class="banner-p">Click on any of deals to read more. Each deal has its own popup modal to include any relevant information for your trip!</p>
         </div>
     </section>
-
 
     <!--------------------- Deals Box Section --------------------->
     <section>
@@ -115,9 +120,6 @@
         </div>
     </section>
 
-
-
-
     <!--------------------- Newsletter Subscription Section --------------------->
     <section>
         <div class="contain">
@@ -140,8 +142,6 @@
             </div>
         </div>
     </section>
-
-
 
 
     <!--------------------- Testimonials Section --------------------->
@@ -176,9 +176,71 @@
         </div>
     </section>
 
+
+    <!--------------------- Maps Section --------------------->
+    <div class="hotel-search">
+        <div id="findhotels">
+            Find hotels in:
+        </div>
+
+        <div id="locationField">
+            <input id="autocomplete" placeholder="Enter a city" type="text" />
+        </div>
+
+        <div id="controls">
+            <select id="country">
+          <option value="all">All</option>
+          <option value="au">Australia</option>
+          <option value="br">Brazil</option>
+          <option value="ca">Canada</option>
+          <option value="fr">France</option>
+          <option value="de">Germany</option>
+          <option value="mx">Mexico</option>
+          <option value="nz">New Zealand</option>
+          <option value="it">Italy</option>
+          <option value="za">South Africa</option>
+          <option value="es">Spain</option>
+          <option value="pt">Portugal</option>
+          <option value="us" selected>U.S.A.</option>
+          <option value="uk">United Kingdom</option>
+        </select>
+        </div>
+    </div>
+
     <div id="map"></div>
 
+    <div id="listing">
+        <table id="resultsTable">
+            <tbody id="results"></tbody>
+        </table>
+    </div>
 
+    <div style="display: none">
+        <div id="info-content">
+            <table>
+                <tr id="iw-url-row" class="iw_table_row">
+                    <td id="iw-icon" class="iw_table_icon"></td>
+                    <td id="iw-url"></td>
+                </tr>
+                <tr id="iw-address-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Address:</td>
+                    <td id="iw-address"></td>
+                </tr>
+                <tr id="iw-phone-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Telephone:</td>
+                    <td id="iw-phone"></td>
+                </tr>
+                <tr id="iw-rating-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Rating:</td>
+                    <td id="iw-rating"></td>
+                </tr>
+                <tr id="iw-website-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Website:</td>
+                    <td id="iw-website"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
 
     <!--------------------- Contact Form Section --------------------->
@@ -210,11 +272,8 @@
         </div>
     </section>
 
-
-
     <!--------------------- Footer Begins --------------------->
     <footer></footer>
-
 
     <!-- Mexico Modal -->
     <div id="mexicoModal" class="modal">
@@ -239,7 +298,6 @@
                 <p>sales@simpledesignworks.co.uk</p>
             </div>
         </div>
-
     </div>
 
     <!-- Moscow Modal -->
@@ -265,7 +323,6 @@
                 <p>sales@simpledesignworks.co.uk</p>
             </div>
         </div>
-
     </div>
 
     <!-- Sri Lanka Modal -->
@@ -294,7 +351,11 @@
 
     </div>
 
+    <script type="text/javascript" src="assets/js/maps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRH1lbe6szMBjctZcDmnrANuJqUxgc3Ho&libraries=places&callback=initMap" async defer></script>
+    <script type="text/javascript" src="assets/js/foundation.js"></script>
 </body>
-<script type="text/javascript" src="assets/js/foundation.js"></script>
+
+
 
 </html>
