@@ -40,19 +40,19 @@
                 <div class="collapse navbar-collapse nav-center" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-active nav-link" href="#latest-deals">Latest Deals</a>
+                            <a class="nav-active nav-link" href="https://cobyfoster99.github.io/Interactive-frontend-project/index.html#latest-deals">Latest Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/about.html">Newsletter</a>
+                            <a class="nav-link" href="https://cobyfoster99.github.io/Interactive-frontend-project/index.html#newsletter">Newsletter</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact.html">Reviews</a>
+                            <a class="nav-link" href="https://cobyfoster99.github.io/Interactive-frontend-project/index.html#reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact.html">Map</a>
+                            <a class="nav-link" href="https://cobyfoster99.github.io/Interactive-frontend-project/index.html#map-nav">Map</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact.html">Contact</a>
+                            <a class="nav-link" href="https://cobyfoster99.github.io/Interactive-frontend-project/index.html#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +61,7 @@
     </header>
 
     <!--------------------- Banner Section --------------------->
-    <section id="latest-deals">
+    <section id="banner">
         <div class="banner-image-container h1-section">
             <h1 class="banner-h1">TOP DESTINATIONS ON THE GLOBE </h1>
             <p class="banner-p">Click on any of deals to read more. Each deal has its own popup modal to include any relevant information for your trip!</p>
@@ -70,7 +70,7 @@
 
     <!--------------------- Deals Box Section --------------------->
     <section>
-        <div class="contain grey-background">
+        <div class="contain grey-background" id="latest-deals">
             <div class="h1-deals-section">
                 <h1>OUR LATEST DEALS!</h1>
                 <P>Click on any of deals to read more. Each deal has its own popup modal to include any relevant information for your trip!</P>
@@ -122,7 +122,7 @@
 
     <!--------------------- Newsletter Subscription Section --------------------->
     <section>
-        <div class="contain">
+        <div class="contain" id="newsletter">
             <div class="image-background-newsletter">
                 <div class="h1-section"></div>
                 <h1 class="newsletter-h1">SUBSCRIBE TO OUR NEWSLETTER</h1>
@@ -146,7 +146,7 @@
 
     <!--------------------- Testimonials Section --------------------->
 
-    <section class="grey-background">
+    <section class="grey-background" id="reviews">
         <div class="contain">
             <div class="testimonials-section no-gutters">
                 <h1>TRUSTED BY MANY!</h1>
@@ -177,10 +177,40 @@
     </section>
 
 
+    <!--------------------- Contact Form Section --------------------->
+    <section class="white-background" id="contact">
+        <div class="contain">
+            <div class="h1-section no-gutters">
+                <h1>BESPOKE HOLIDAY EXPERIENCES</h1>
+                <P>Fill out the form below to choose your own experience!</P>
+            </div>
+        </div>
+
+
+        <div class="contain">
+            <div class="container-contact">
+                <form action="https://formspree.io/meqolwjw" method="POST">
+                    <input type="ftext" name="full-name" placeholder="Full Name" class="full-name" required />
+
+                    <input type="ftext" name="destination" placeholder="Desired Destination" class="full-name" required />
+
+                    <input type="number" name="party-size" placeholder="Party Size" class="full-name" required />
+
+                    <input type="number" name="phone-number" placeholder="Phone Number" class="full-name" required />
+
+                    <textarea rows="8" name="discuss" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
+
+                    <input type="submit" value="Submit" class="submit-button" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+
     <!--------------------- Maps Section --------------------->
-    <div class="hotel-search">
+    <div class="hotel-search" id="map-nav">
         <div id="findhotels">
-            Find hotels in:
+            <h5>Find hotels in:</h5>
         </div>
 
         <div id="locationField">
@@ -243,37 +273,36 @@
     </div>
 
 
-    <!--------------------- Contact Form Section --------------------->
-    <section class="white-background">
-        <div class="contain">
-            <div class="h1-section no-gutters">
-                <h1>BESPOKE HOLIDAY EXPERIENCES</h1>
-                <P>Fill out the form below to choose your own experience!</P>
-            </div>
-        </div>
 
-
-        <div class="contain">
-            <div class="container-contact">
-                <form action="https://formspree.io/meqolwjw" method="POST">
-                    <input type="ftext" name="first-name" placeholder="First Name" class="full-name" required />
-
-                    <input type="ftext" name="location" placeholder="Location" class="full-name" required />
-
-                    <input type="ftext" name="subject" placeholder="Subject" class="full-name" required />
-
-                    <input type="number" name="phone-number" placeholder="Phone Number" class="full-name" required />
-
-                    <textarea rows="8" name="discuss" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
-
-                    <input type="submit" value="Submit" class="submit-button" />
-                </form>
-            </div>
-        </div>
-    </section>
 
     <!--------------------- Footer Begins --------------------->
-    <footer></footer>
+    <footer>
+        <div class="container-fluid">
+            <div class="row no-gutters footer-about">
+                <div class="col-sm footer-section">
+                    <h2 class="footer-h2">About</h2>
+                    <p class="footer-p">We offer a service that covers conceptual design all the way through to putting your idea out into the market. Our dynamic team has expertise in many disciplines, with backgrounds in mechanical engineering, electronics, and product
+                        design, giving us the capabilities to tackle most product enquiries.
+                    </p>
+                </div>
+                <div class="col-sm footer-section footer-location">
+                    <h2 class="footer-h2">Location</h2>
+                    <p class="footer-p">Rural Enterprise Centre,<br> Rotherwas Industrial Estate<br> Hereford
+                        <br> HR2 6FE<br>
+                    </p>
+                </div>
+                <div class="col-sm footer-section footer-sitemap">
+                    <h2 class="footer-h2">Latest Deals</h2>
+                    <p class="footer-p"><a class="footer-links" href="https://cobyfoster99.github.io/User-Centric-frontend-project/index">Home</a> <br> <a class="footer-links" href="https://cobyfoster99.github.io/User-Centric-frontend-project/about">About</a> <br> <a class="footer-links"
+                            href="https://cobyfoster99.github.io/User-Centric-frontend-project/contact">Contact</a> <br>
+                        <p class="footer-p">© simple design works travel 2012 - 2020</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 
     <!-- Mexico Modal -->
     <div id="mexicoModal" class="modal">
@@ -307,14 +336,14 @@
         <div class="modal-contents">
             <span class="close-button-moscow">&times;</span>
             <div class="moscow-modal-header text-center">
-                <h1 class="modal-h1 text-center">MOSCOW MADNESS</h1>
+                <h1 class="modal-h1 text-center">MOSCOW MIX-UP</h1>
             </div>
             <div class="modal-p-container">
-                <p class="modal-p">Our love for Mexican food has grown exponentially in recent years, with many high street restaurants serving up Mexican dishes. However, nothing beats eating with the locals. Tuck into authentic dishes like guacamole, tacos and chilaquiles
-                    (a typical breakfast dish containing fried tortillas topped with salsa and mole).
-                </p>
-                <p class="modal-p">From the ancient city of Palenque to the world-famous Chicen Itza, Mexico is steeped in a rich history of ancient civilisations. You can also head to Tulum, one of the last Mayan cities built, which sits on the idyllic coastline of the
-                    Yucatán Peninsula, also home to some stunning resorts that’ll leave you within walking distance of this Mayan marvel.
+                <p class="modal-p">In Moscow you can travel through ages just walking through the streets. Diversified architectural styles wait for you at every turn. To see the beauty of ancient Russian architecture, visit the Kremlin or Kolomenskoe Museum. These places
+                    keep the unique Russian style, original and exceptional. The Moscow estates are good examples of the romantic flavor of the XVIII-XIX century’s architecture. The Home-museum of M. Gorky is situated in in a luxurious house built by
+                    F. Shechtel, well-known Russian architecture at beginning of the XX century. It is a fantastic example of Art-Nouveau style, one of the few saved places from that epoque, open to visitors. You can find constructivism in architecture,
+                    the most striking manifestation of Russian avant-garde, not far from the Arbat Street. The Soviet Empire style can be found on most of the Moscow central avenues and Tverskaya Street. The White Square Business District is a remarkable
+                    example of contemporary city building.
                 </p>
             </div>
             <div class="modal-lower-footer">
@@ -335,12 +364,9 @@
                 <h1 class="modal-h1 text-center">SUPER SRI LANKA</h1>
             </div>
             <div class="modal-p-container">
-                <p class="modal-p">Our love for Mexican food has grown exponentially in recent years, with many high street restaurants serving up Mexican dishes. However, nothing beats eating with the locals. Tuck into authentic dishes like guacamole, tacos and chilaquiles
-                    (a typical breakfast dish containing fried tortillas topped with salsa and mole).
-                </p>
-                <p class="modal-p">From the ancient city of Palenque to the world-famous Chicen Itza, Mexico is steeped in a rich history of ancient civilisations. You can also head to Tulum, one of the last Mayan cities built, which sits on the idyllic coastline of the
-                    Yucatán Peninsula, also home to some stunning resorts that’ll leave you within walking distance of this Mayan marvel.
-                </p>
+                <p class="modal-p">Sri Lanka’s tropical climate, sandy beaches and incredible cuisine are just among the many reasons to include this beautiful South Asian country on your travel bucket list. This tiny island nation, otherwise known as the ‘Pearl of the
+                    Indian Ocean’, has fast become a popular tourist destination for holidaymakers. It’s the perfect place for those looking to immerse themselves in local culture; a definite must-visit spot for watersport and wildlife enthusiasts; and
+                    a haven for history buffs. </p>
             </div>
             <div class="modal-lower-footer">
                 <h5 class="modal-footer-bold">Enquire Now -</h5>
@@ -350,6 +376,9 @@
         </div>
 
     </div>
+
+
+
 
     <script type="text/javascript" src="assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRH1lbe6szMBjctZcDmnrANuJqUxgc3Ho&libraries=places&callback=initMap" async defer></script>
