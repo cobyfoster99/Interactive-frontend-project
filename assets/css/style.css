@@ -201,11 +201,11 @@ header {
     clear: left;
     font: 14px "poppins", sans-serif;
     width: 100%;
-    border-radius: 25px;
+    border-radius: 55px;
 }
 
 #mce-EMAIL {
-    border-radius: 25px;
+    border-radius: 55px;
 }
 
 
@@ -442,4 +442,9 @@ header {
     .deals-box-section {
         
     }
+}
+
+
+div#map {
+    min-height: 360px;
 }
