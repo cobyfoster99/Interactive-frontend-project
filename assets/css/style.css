@@ -108,6 +108,7 @@ header {
 /* nav */
 
 /* -------------------------------------------- Banner */
+
 .banner-image-container {
     background-image: url(../media-library/banner-image.jpg);
     min-height: 600px;
@@ -124,6 +125,7 @@ header {
 
 
 /* -------------------------------------------- Latest Deals */
+
 .deals-box-section {
     display: inline-block;
     max-width: 1200px;
@@ -186,6 +188,7 @@ header {
 
 
 /* -------------------------------------------- newsletter Subscription */
+
 .image-background-newsletter {
     background-image: url("../media-library/newsletter-background.jpg");
     max-height: 400px;
@@ -211,6 +214,7 @@ header {
 
 
 /* -------------------------------------------- Reviews Section */
+
 .testimonials-section {
     padding-bottom: 50px;
     padding-top: 100px;
@@ -235,6 +239,7 @@ header {
 /* Map Section */
 
 /* -------------------------------------------- Contact Header and Form */
+
 .container-contact {
     margin-left: auto;
     margin-right: auto;
@@ -302,8 +307,88 @@ header {
 }
 
 
+/* -------------------------------------------- Map Section */
+
+div#map {
+    min-height: 500px;
+    padding-top: 20px;
+}
+
+#locationField,
+#country,
+#autocomplete {
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-color: black;
+    border-width: 1px;
+}
+
+#autocomplete {
+    width: 30%;
+
+}
+
+.hotel-search {
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    display: inline-block;
+
+}
+
+#listing {
+    width: 100%
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+/* -------------------------------------------- Footer */
+
+footer {
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footer-h2 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer-p {
+    font-size: 16px;
+    line-height: 22pt;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #475D7B;
+}
+
+.footer-links:hover {
+    text-decoration: none;
+    color: #475D7B;
+}
+
+
 
 /* -------------------------------------------- Modals */
+
 .modal {
     max-width: 100%;
     float: center;
@@ -398,7 +483,9 @@ header {
 
 
 /* -------------------------------------------- Media Queries */
+
 /* -------------------------------------------- Navigation media */
+
 @media only screen and (max-width: 1920px) and (min-width: 1200px) {
     .nav-center {
         float: right;
@@ -430,7 +517,7 @@ header {
 @media only screen and (max-width: 1300px) and (min-width: 700px) {
     .deals-box,
     .deals-image,
-    .reviews-box{
+    .reviews-box {
         width: 450px;
         margin-bottom: 20px;
     }
@@ -439,12 +526,49 @@ header {
 
 
 @media only screen and (max-width: 1200px) and (min-width: 700px) {
-    .deals-box-section {
-        
+    .deals-box-section {}
+}
+
+
+
+/* -------------------------------------------- Media Queries - Footer */
+
+@media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .footer-location {
+        margin-left: 180px;
+    }
+
+    footer {
+        padding-left: 250px;
+        padding-right: 250px;
     }
 }
 
 
-div#map {
-    min-height: 360px;
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    footer {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .footer-sitemap,
+    .footer-location {
+        margin-left: 50px;
+        padding-right: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 300px) {
+    .footer-p {
+        font-size: 14px;
+    }
+}
+
+#findhotels {
+    font-family: inherit;
+    font-size: inherit;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
