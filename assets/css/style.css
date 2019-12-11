@@ -96,7 +96,6 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.nav-active,
 .nav-link:hover {
     color: #2abd9a;
 }
