@@ -3,7 +3,7 @@
 // country. It then displays markers for all the hotels returned,
 // with on-click details for each hotel.
 
-// The JS has been taken from Google Dev website. I then modified this JS to suit ny needs. 
+// The JS has been taken from Google Dev website. I then modified this JS to suit ny needs. Refernce code here - https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/places-autocomplete#places_searchbox
 
 var map, places, infoWindow;
 var markers = [];
