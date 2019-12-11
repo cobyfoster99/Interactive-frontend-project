@@ -36,7 +36,7 @@ Trustpilot reviews API - This API would be used to activly add reviews added to 
 ### Technologies Used
 HTML - was used to display the content.
 CSS - was used to style the content displayed.
-JS - was used for reaching external sources (API's), modal popups and forms. 
+JS - was used for reaching external sources (API's), modal popups, maps and forms. 
 JQuery - The project uses JQuery to simplify DOM manipulation.
 Bootstrap - Minorly used for basic layout stup. 
 Adobe XD - Used to create the wireframes and content. 
@@ -60,11 +60,13 @@ All feature testing was done by myself and collegues. We tested the form API, Ma
 
 I tested all code and removed any uneccercary code from my directory. for e.g I had unused media queries from old classes no longer being used. These were all removed in the later revisions stored in GutHub. 
 
+I ran into a few problems when using API's and Github pages. I have explained this in the Deployment section of my README.
 ### Deployment
 The website has been deployed to GitHub Pages LINK HERE! Using this link you can access the website. Using THIS LINK you can access the repositories to view my code and any external sources + API's. 
 
 I have chosen GitHub pages because it is a free, quick and easy way of hosting the webpage. It also includes security features suchas an SSL certificate (content encryption). 
 
+Although I chose to use GitHub pages... I have still ran into a few problems. Using GH Pages I am not able to use Google ReCaptcha and Mailchimp Form Api. Instead I have had to use Mailchimp embeddded form and Formspree. Formspree sends you to an external website to validate using Google ReCaptcha and then sends me an email with the form contents. 
 ### Credits
 
 ##### Media - 
