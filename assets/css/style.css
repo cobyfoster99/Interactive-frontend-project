@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 /* -------------------------------------------- Background Headers */
 
@@ -105,7 +110,12 @@ header {
     display: inline-block;
 }
 
-/* nav */
+.show {
+    background-color: white;
+    float: right;
+    padding-right: 20px;
+}
+
 
 /* -------------------------------------------- Banner */
 
@@ -483,6 +493,27 @@ footer {
 
 /* -------------------------------------------- Media Queries */
 
+/* -------------------------------------------- Typography media */
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.h1-section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    h1,
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 /* -------------------------------------------- Navigation media */
 
 @media only screen and (max-width: 1920px) and (min-width: 1200px) {
@@ -496,12 +527,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1920px) {
-    .float-right {
-        padding-left: 380px;
-        width: 100%;
-    }
-}
+
 
 @media only screen and (max-width: 1900px) and (min-width: 1000px) {
     .float-right {
@@ -510,14 +536,22 @@ footer {
     }
 }
 
+@media (max-width:700px) {
+    .logo {
+        max-width: 75%;
+    }
+
+}
+
 
 /* -------------------------------------------- Latest Deals Media */
 
-@media only screen and (max-width: 1300px) and (min-width: 450px) {
+@media only screen and (max-width: 1200px) {
     .deals-box,
     .deals-image,
     .reviews-box {
-        width: 450px;
+        max-width: 400px;
+        min-width: auto;
         margin-bottom: 30px;
     }
 }
@@ -562,4 +596,21 @@ footer {
     padding-bottom: 20px;
     padding-top: 20px;
 
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width:300px) {
+    .full-name,
+    .submit-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #mc_embed_signup,
+    .button {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
