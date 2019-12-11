@@ -1,8 +1,10 @@
 # Interactive Frontend Project	
 
-In this project I will be creating a travel advice and package deal website. Using my website, people will be able to find infomration on our latest delas using a modal popup, subscribe to my newsletter using MAILCHIMP API, use google maps to find hotels, bars, clubs, resturants across the globe and they can also fill out ourr bespoke holiday contact form - protected by Google Captcha. 
+In this project I will be creating a travel advice and package deal website. Using my website, people will be able to find infomration on our latest delas using a modal popup, subscribe to my newsletter using MAILCHIMP API, use google maps to find hotels across the globe and they can also fill out our bespoke holiday contact form - protected by Google Captcha. 
 
-Using Modal popups, google and form API's this website is sophisticated and easy to use. It's all on one page for ease-of-use and includes testimonials to gve the end viewer some trust in what they reading. I would have included a SSL certifivcate but this site is deployed to GitHubs pages, otherwise I would have added this. 
+The mothod of contact for this company is strictly contact form. Once they have read through the latest deals, they can fill out the form to find out more. 
+
+Using Modal popups, google and form API's this website is sophisticated and easy to use. It's all on one page for ease-of-use and includes testimonials to gve the end viewer some trust in what they reading. I would have included a SSL certificate but this site is deployed to GitHubs pages, otherwise I would have added this. 
 
 ### UX
 
@@ -11,14 +13,17 @@ Then we go onto a subscription form which allows you to sign up for a chance to 
 
 As the website is for travel and holiday packages, I immediatly throw the top 3 deals into viewport. This is a method used by most product providers, this way you see that straight away and instatly look into building up excitement. 
 
-I built the wireframes in Adobe XD LINK HERE
+I built the wireframes in Adobe XD. They can be found in this file path  /assets/media-library/Interactive Frontend Project - Wireframes XD.pdf
+I decided to modify the design and layout slightly when coding the site. I found that my new design is more intuitive and easy on the eye. 
+#### SEO
+As this page is for the course, I decided not to include any on page or backend SEO. I have not minified any code or compressed (lossless method) any of my images, if this was intended for commercial use, I would do both of these things. 
 
 ### Features
 
 ##### Feature 1 - Modal Popup
 The Modal Popup is an easy way to display information without it making the website look crowded. The information s displayed inside a JS popup that only appears when called. In this instance it is called by clicking on the deal they choose. When styled and built correctly, popups look and act great.
 
-##### Feature 2 - Subcription API
+##### Feature 2 - Subcription Form
 The Mailchip API allows you to maintain a database of customers who want to be contacted with future marketing information. You can also use this as I  have done, a way to giveaway free prizes to people who sign up. This API is fully GDPR complient. 
 
 ##### Feature 2 - Google Maps API
@@ -61,14 +66,19 @@ All feature testing was done by myself and collegues. We tested the form API, Ma
 I tested all code and removed any uneccercary code from my directory. for e.g I had unused media queries from old classes no longer being used. These were all removed in the later revisions stored in GutHub. 
 
 I ran into a few problems when using API's and Github pages. I have explained this in the Deployment section of my README.
+
 ### Deployment
 The website has been deployed to GitHub Pages LINK HERE! Using this link you can access the website. Using THIS LINK you can access the repositories to view my code and any external sources + API's. 
 
 I have chosen GitHub pages because it is a free, quick and easy way of hosting the webpage. It also includes security features suchas an SSL certificate (content encryption). 
 
 Although I chose to use GitHub pages... I have still ran into a few problems. Using GH Pages I am not able to use Google ReCaptcha and Mailchimp Form Api. Instead I have had to use Mailchimp embeddded form and Formspree. Formspree sends you to an external website to validate using Google ReCaptcha and then sends me an email with the form contents. 
+
+
 ### Credits
 
+#### Code
+Google Dev - I used tutorials and JS from the google dev website. They have a library of JS in which you can take and modify to your liking. As I am using Google Maps, I decided to take the places JS I needed and modify it to suit hotels. Reference - https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/places-autocomplete#places_searchbox
 ##### Media - 
 For images I used a free stock images website called Pexels https://www.pexels.com/. Authors/photographers as follows - Alex Witchkin and Javid Ratch.
 
