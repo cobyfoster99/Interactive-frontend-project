@@ -71,7 +71,13 @@ I have chosen GitHub pages because it is a free, quick and easy way of hosting t
 For images I used a free stock images website called Pexels https://www.pexels.com/. Authors/photographers as follows - Alex Witchkin and Javid Ratch.
 
 ##### Text - 
-All text was written by myself. I have not copied from any external sources. 
+Any text not from the sources listed below is written by me.  
+
+External sources -
+https://www.haystravel.co.uk/about
+https://weheart.moscow/toptenreasons/
+https://theculturetrip.com/north-america/mexico/articles/10-reasons-why-you-should-visit-mexico/
+https://theculturetrip.com/asia/sri-lanka/articles/11-reasons-why-you-should-visit-sri-lanka/
 
 ##### Acknowledgements - 
-I Looked at various websites including; Tui, Travel Republic, First Choice and Co-operative Travel. I used these as inspiration but no details were copied/mirrored.
+I Looked at various websites including; Tui, Travel Republic, First Choice and Hays Travel. I used these as inspiration but no details were copied/mirrored.
