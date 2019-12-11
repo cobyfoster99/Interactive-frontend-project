@@ -78,6 +78,7 @@ Although I chose to use GitHub pages... I have still ran into a few problems. Us
 ### Credits
 
 #### Code
+https://www.w3schools.com/ - When debugging code or struggling with something, I reference W3Schools as it has a full library of code for you to look at. I used this as reference when creating the modals as at first, there was a problem with my modal. 
 Google Dev - I used tutorials and JS from the google dev website. They have a library of JS in which you can take and modify to your liking. As I am using Google Maps, I decided to take the places JS I needed and modify it to suit hotels. Reference - https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/places-autocomplete#places_searchbox
 ##### Media - 
 For images I used a free stock images website called Pexels https://www.pexels.com/. Authors/photographers as follows - Alex Witchkin and Javid Ratch.
@@ -92,4 +93,5 @@ https://theculturetrip.com/north-america/mexico/articles/10-reasons-why-you-shou
 https://theculturetrip.com/asia/sri-lanka/articles/11-reasons-why-you-should-visit-sri-lanka/
 
 ##### Acknowledgements - 
+
 I Looked at various websites including; Tui, Travel Republic, First Choice and Hays Travel. I used these as inspiration but no details were copied/mirrored.
