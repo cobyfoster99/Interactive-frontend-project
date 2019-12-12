@@ -334,12 +334,35 @@ div#map {
 }
 
 #listing {
-    width: 100%
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+
+
+#findhotels {
+    font-family: inherit;
+    font-size: inherit;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+table {
+    display: inline-block;
+    background-color: #f1f1f1;
+}
+
+
+
+td {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 td:hover {
     cursor: pointer;
 }
+
 
 /* -------------------------------------------- Footer */
 
@@ -555,6 +578,24 @@ h3 {
     }
 }
 
+
+
+
+
+/* -------------------------------------------- Media Queries - Map */
+
+@media (min-width:500px) {
+    tr {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 500px;
+        text-align: center;
+    }
+
+
+}
+
 /* -------------------------------------------- Media Queries - Footer */
 
 @media only screen and (max-width: 1920px) and (min-width: 1200px) {
@@ -589,13 +630,6 @@ h3 {
     }
 }
 
-#findhotels {
-    font-family: inherit;
-    font-size: inherit;
-    padding-bottom: 20px;
-    padding-top: 20px;
-
-}
 
 
 @media only screen and (max-width: 1200px) and (min-width:300px) {
