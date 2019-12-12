@@ -21,7 +21,7 @@
 
 
     <title>Simple Design Works | Travel</title>
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <script var map; function createMap() { var options={ center: { lat: 43.654, lng: -79.383 }, zoom: 10 }; map=n ew google.maps.Map(document.getElementById( 'map'), options); }></script>
 
@@ -197,6 +197,8 @@
                     <input type="number" name="phone-number" placeholder="Phone Number" class="full-name" required />
 
                     <textarea rows="8" name="discuss" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
+
+                    <div class="g-recaptcha" data-sitekey="6LcZQscUAAAAAIKYUJ0WWZ23rWy87JMsbGN8EF7k"></div>
 
                     <input type="submit" value="Submit" class="submit-button" />
                 </form>
