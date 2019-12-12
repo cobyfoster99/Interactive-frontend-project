@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
@@ -23,6 +23,8 @@
 
     <title>Simple Design Works | Travel</title>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script type="text/javascript">
         (function() {
             emailjs.init("user_n1PKgcnMlOyMOtNgw12rC");
@@ -194,7 +196,7 @@
 
         <div class="contain">
             <div class="container-contact">
-                <form onsubmit="return sendMail(this);" method="POST">
+                <form onsubmit="return sendMail(this);" method="POST" id="contactForm">
                     <input type="ftext" name="name" placeholder="Full Name" class="full-name" required />
 
                     <input type="ftext" name="destination" placeholder="Desired Destination" class="full-name" required />
