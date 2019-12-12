@@ -24,7 +24,9 @@
     <title>Simple Design Works | Travel</title>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+    </script>
     <script type="text/javascript">
         (function() {
             emailjs.init("user_n1PKgcnMlOyMOtNgw12rC");
@@ -32,7 +34,6 @@
     </script>
 
 </head>
-<script var map; function createMap() { var options={ center: { lat: 43.654, lng: -79.383 }, zoom: 10 }; map=n ew google.maps.Map(document.getElementById( 'map'), options); }></script>
 
 <body>
 
@@ -196,7 +197,7 @@
 
         <div class="contain">
             <div class="container-contact">
-                <form onsubmit="return sendMail(this);" method="POST" id="contactForm">
+                <form onsubmit="return sendMail(this);" method="POST">
                     <input type="ftext" name="name" placeholder="Full Name" class="full-name" required />
 
                     <input type="ftext" name="destination" placeholder="Desired Destination" class="full-name" required />
@@ -205,9 +206,9 @@
 
                     <input type="number" name="phone" placeholder="Phone Number" class="full-name" required />
 
-                    <textarea rows="8" name="enquiry_details" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
+                    <textarea rows="8" name="discussform" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
 
-                    <div class="g-recaptcha" data-sitekey="6LcZQscUAAAAAIKYUJ0WWZ23rWy87JMsbGN8EF7k" required></div>
+                    <div class="g-recaptcha" data-sitekey="6LcZQscUAAAAAIKYUJ0WWZ23rWy87JMsbGN8EF7k"></div>
 
                     <input type="submit" value="Submit" class="submit-button" />
                 </form>
@@ -311,6 +312,7 @@
         </div>
     </footer>
 
+    <!--------------------- Modals Begin --------------------->
 
     <!-- Mexico Modal -->
     <div id="mexicoModal" class="modal">
@@ -382,10 +384,13 @@
         </div>
 
     </div>
+
+
+    <script type="text/javascript" src="assets/js/send-email.js"></script>
     <script type="text/javascript" src="assets/js/maps.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRH1lbe6szMBjctZcDmnrANuJqUxgc3Ho&libraries=places&callback=initMap" async defer></script>
     <script type="text/javascript" src="assets/js/foundation.js"></script>
-    <script src="assets/js/send-email.js"></script>
+
 </body>
 
 </html>
