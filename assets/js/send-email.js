@@ -1,10 +1,10 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "travel", {
+    emailjs.send("gmail", "sdw_travel", {
             "from_name": contactForm.name.value,
             "from_email": contactForm.emailaddress.value,
             "desired_location": contactForm.destination.value,
             "phone_number": contactForm.phone.value,
-            "enquiry_details": contactForm.projectsummary.value
+            "discuss": contactForm.discussform.value
         })
         .then(
             function(response) {
