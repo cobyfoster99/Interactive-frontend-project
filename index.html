@@ -22,6 +22,13 @@
 
     <title>Simple Design Works | Travel</title>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_n1PKgcnMlOyMOtNgw12rC");
+        })();
+    </script>
+    
+    <script type="text/javascript" src="/assets/js/send-email.js"></script>
 </head>
 <script var map; function createMap() { var options={ center: { lat: 43.654, lng: -79.383 }, zoom: 10 }; map=n ew google.maps.Map(document.getElementById( 'map'), options); }></script>
 
@@ -187,18 +194,18 @@
 
         <div class="contain">
             <div class="container-contact">
-                <form action="https://formspree.io/meqolwjw" method="POST">
-                    <input type="ftext" name="full-name" placeholder="Full Name" class="full-name" required />
+                <form onsubmit="return sendMail(this);" method="POST">
+                    <input type="ftext" name="name" placeholder="Full Name" class="full-name" required />
 
                     <input type="ftext" name="destination" placeholder="Desired Destination" class="full-name" required />
 
-                    <input type="number" name="party-size" placeholder="Party Size" class="full-name" required />
+                    <input type="number" name="emailaddress" placeholder="Party Size" class="full-name" required />
 
-                    <input type="number" name="phone-number" placeholder="Phone Number" class="full-name" required />
+                    <input type="number" name="phone" placeholder="Phone Number" class="full-name" required />
 
-                    <textarea rows="8" name="discuss" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
+                    <textarea rows="8" name="enquiry_details" placeholder="What's your dream experience?" class="dream-experience" required></textarea>
 
-                    <div class="g-recaptcha" data-sitekey="6LcZQscUAAAAAIKYUJ0WWZ23rWy87JMsbGN8EF7k"></div>
+                    <div class="g-recaptcha" data-sitekey="6LcZQscUAAAAAIKYUJ0WWZ23rWy87JMsbGN8EF7k" required></div>
 
                     <input type="submit" value="Submit" class="submit-button" />
                 </form>
