@@ -8,11 +8,11 @@ function sendMail(contactForm) {
         })
         .then(
             function(response) {
-                document.getElementById("sucessForm");
+                document.getElementById("sucessForm").style.display = "block";
             },
             
             function(error) {
-                document.getElementById("failedForm");
+                document.getElementById("failedForm").style.display = "block";
             }
         );
     return false; // To block from loading a new page
