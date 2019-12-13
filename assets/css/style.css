@@ -649,3 +649,21 @@ h3 {
         margin-right: auto;
     }
 }
+
+
+
+/* -------------------------------------------- Media Queries - Modal */
+
+@media (max-width:720px) {
+    .modal-contents {
+        overflow: auto;
+        font-size: 12px;
+        width: 90%;
+    }
+}
+
+@media (max-width:720px) {
+    .modal-h1 {
+        font-size: 20px;
+    }
+}
