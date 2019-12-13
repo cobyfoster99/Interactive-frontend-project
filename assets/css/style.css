@@ -299,7 +299,9 @@ header {
     text-align: center;
 }
 
-
+.form-response {
+    display: none;
+}
 
 
 /* -------------------------------------------- Map Section */
